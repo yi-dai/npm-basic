@@ -1,8 +1,8 @@
-import transform from 'romanize'
+import {trans} from '../src/romanizer'
 
 describe('transform', function(){
   it('should return x when input 10', () => {
-    const result = transform(10);
-    expect(result).toEqual('X')
+    const result = trans(10);
+    expect(result).toEqual('X');
   });
 });

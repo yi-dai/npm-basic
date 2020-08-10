@@ -1,5 +1,9 @@
-import _ from romanize;
+import transform from 'romanize'
 
-const result = (number) => {
-    return _.transform(numbers);
-}
+const trans = (number) => {
+    return transform(number);
+};
+
+export{
+trans
+};
